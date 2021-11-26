@@ -1,16 +1,13 @@
 # Operaatio asetukset
 
-## Basic
-![Kuva: 2D profiili][type_contour]
+## Työstörata asetukset
+- [Basic](/Basic.md)
 
 
-[type_contour]: Images/Toolpath_type-2D_Contour.png 'Työstöradan tyyppi'
-[tool_target]: Images/Tool-target.png 'Tool'
-[cutparam-contour-1] Images/
-
+[type]
 [geometry] - Mallin geometria (model geometry)
 [control] - Työstöradan ohjaus (Toolpath control)
-[tool_target] - työkalu
+[tool] - työkalu
 [holder] - pidin
 [Stock] - aihio ?
 [cutparam] - Työstöparametrit (Cut parammeters)
