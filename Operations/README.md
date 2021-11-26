@@ -1,7 +1,7 @@
 # Operaatio asetukset
 
 ## Työstörata asetukset
-- [Basic]/Operations/Basic.md)
+- [Basic](/Operations/Basic.md)
 
 
 - [type]
