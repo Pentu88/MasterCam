@@ -2,7 +2,9 @@
 Vaneri / mänty / Sika Block 700
 
 ## Luettelo
-TODO list here!
+- [1. 2D Profiili (Kohdistus)](#1-2d-profiili-kohdistus)
+- [2. 2D Profiili (Tupit)](#2-2d-profiili-tupit)
+- [3. Tasaus](#3-2d-tasaus)
 
 ## **1.** 2D Profiili (*Kohdistus*)
 Kohdistus naarmujen ajo pöytään.
