@@ -4,7 +4,7 @@
 ![Kuva: 2D profiili][type_contour]
 
 
-[type_contour]: Images/Toolpath_type-2D_Contour.png '2D Profiili'
+[type_contour]: Images/Toolpath_type-2D_Contour.png 'Työstöradan tyyppi'
 [tool_target]: Images/Tool-target.png 'Tool'
 [cutparam-contour-1] Images/
 
