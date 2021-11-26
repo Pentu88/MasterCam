@@ -2,9 +2,10 @@
 Vaneri / mänty / Sika Block 700
 
 ## Luettelo
+TODO list here!
 
 ## **1.** 2D Profiili (*Kohdistus*)
-Naarmut pöytään.
+Kohdistus naarmujen ajo pöytään.
 
 ![Kuva: 2D profiili][type_contour]
 
@@ -17,8 +18,8 @@ Naarmut pöytään.
 **Kuva puuttuu**
 
 
-## **2.** 2D Profiili (*Kohdistus*)
-Tupien ajo.
+## **2.** 2D Profiili (*Tupit*)
+Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 
 ![Kuva: 2D profiili][type_contour]
 
@@ -30,6 +31,20 @@ Tupien ajo.
 
 ![Kuva: 11][arcfilparam-woodenpin]
 
+## **3.** 2D Tasaus
+
+![Kuva: 2D profiili][type_face]
+
+![Kuva: Työkalu T01][tool_t1]
+
+![Kuva: Cut parammeters][cutparam-face]
+
+**Kuva puuttuu**
+
+![Kuva: Linking parammeters][linkingparam-face]
+
+![Kuva: 11][arcfilparam-face]
+
 [type_contour]: Images/Toolpath_type-2D_Contour.png 'Työstöradan tyyppi'
 [tool_t7]: Images/Tool-T07-Target.png 'Työkalu'
 [cutparam-contour-1]: Images/Cut_parammeters-Contour_1.png 'Työstöparametrit'
@@ -39,15 +54,21 @@ Tupien ajo.
 [cutparam-contour-2]: Images/Cut_parammeters-Contour_2.png 'Työstöparametrit'
 [linkingparam-woodenpin]: Images/Linking_parameters-woodenpin.png 'Siirtymisparametrit'
 [arcfilparam-woodenpin]: Images/Arc_filter_Tolerance-woodenpin.png 'Kaarisuodatus / Toleranssi'
+[type_face]: Images/Toolpath_type-2D_Face.png 'Työstöradan tyyppi'
+[tool_t1]: Images/Tool-T01-80L.png 'Työkalu'
+[cutparam-face]: Images/Cut_parammeters-Face.png 'Työstöparametrit'
 
-[type]
-[geometry] - Mallin geometria (model geometry)
-[control] - Työstöradan ohjaus (Toolpath control)
-[tool] - työkalu
-[holder] - pidin
-[Stock] - aihio ?
-[cutparam] - Työstöparametrit (Cut parammeters)
-[Transitions] - Siirtymiset ?
-[sleepshallow] - Jyrkkä / laakea (Steep / Shallow)?
-[linkingparam] - Siirtymisparametrit (Linking parammeters) ?
-[arcfilparam] - Kaarisuodatus / Toleranssit (Arc filter / Tolerance)
+[linkingparam-face]: Images/Linking_parameters-face.png 'Siirtymisparametrit'
+[arcfilparam-face]: Images/Arc_filter_Tolerance-face.png 'Kaarisuodatus / Toleranssi'
+
+- [type]
+- [geometry] - Mallin geometria (model geometry)
+- [control] - Työstöradan ohjaus (Toolpath control)
+- [tool] - työkalu
+- [holder] - pidin
+- [Stock] - aihio ?
+- [cutparam] - Työstöparametrit (Cut parammeters)
+- [Transitions] - Siirtymiset ?
+- [sleepshallow] - Jyrkkä / laakea (Steep / Shallow)?
+- [linkingparam] - Siirtymisparametrit (Linking parammeters) ?
+- [arcfilparam] - Kaarisuodatus / Toleranssit (Arc filter / Tolerance)
