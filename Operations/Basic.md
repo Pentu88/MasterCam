@@ -127,18 +127,18 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 
 ## Välilehdet 
 
-- [type] - Työstöradan tyyppi (
-- [geometry] - Mallin geometria (model geometry)
-- [control] - Työstöradan ohjaus (Toolpath control)
-- [tool] - Työkalu (Tool)
-- [holder] - pidin (Holder)
-- [Stock] - aihio (Stock)
-- [cutparam] - Työstöparametrit (Cut parammeters)
-- [depthcuts] - Syvyyslastut (Depth Cuts)
-- [transitions] - Siirtymiset ?
-- [sleepshallow] - Jyrkkä / laakea (Steep / Shallow)?
-- [linkingparam] - Siirtymisparametrit (Linking parammeters) ?
-- [arcfilparam] - Kaarisuodatus / Toleranssit (Arc filter / Tolerance)
+- [type] | Työstöradan tyyppi 
+- [geometry] | Mallin geometria (model geometry)
+- [control] | Työstöradan ohjaus (Toolpath control)
+- [tool] | Työkalu (Tool)
+- [holder] | pidin (Holder)
+- [Stock] | aihio (Stock)
+- [cutparam] | Työstöparametrit (Cut parammeters)
+- [depthcuts] | Syvyyslastut (Depth Cuts)
+- [transitions] | Siirtymiset ?
+- [sleepshallow] | Jyrkkä / laakea (Steep / Shallow)
+- [linkingparam] | Siirtymisparametrit (Linking parammeters)
+- [arcfilparam] | Kaarisuodatus / Toleranssit (Arc filter / Tolerance)
 
 ## TODO
 - [ ] Kohdistus, kaarisuodatus / toleranssi (kuva puuttuu)
