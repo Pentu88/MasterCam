@@ -20,7 +20,7 @@ Kohdistus naarmujen ajo pöytään.
 
 ![Kuva: Linking parammeters][linkingparam-target]
 
-**Kuva puuttuu**
+![Kuva: Arc filter / Tolerance][arcfilparam-target]
 
 
 ## **2.** 2D Profiili (*Tupit*)
@@ -65,7 +65,7 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 
 ![Kuva: Transitions][transitions-1]
 
-**Kuva puuttuu**
+![Kuva: Steep / Shallow][steepshallow-1]
 
 ![Kuva: Linking parammeters][linkingparam-1]
 
@@ -85,7 +85,7 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 
 ![Kuva: Transitions][transitions-2]
 
-![Kuva: Steep / Shallow][steepshallow-1]
+![Kuva: Steep / Shallow][steepshallow-2]
 
 ![Kuva: Linking parammeters][linkingparam-2]
 
@@ -123,7 +123,7 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 [control-1]: Images/Toolpath_control-1.png 'Työstöradan ohjaus'
 [tool_t3]: Images/Tool-T03-20R.png 'Työkalu'
 [cutparam-area]: Images/Cut_parammeters-Area_roughing.png 'Työstöparametrit'
-
+[steepshallow-1]: Images/Steep_shallow-1.png 'Jyrkkä / laakea'
 [transitions-1]: Images/Transitions-1.png 'Siirtymiset'
 [linkingparam-1]: Images/Linking_parameters-1.png 'Siirtymisparametrit'
 [arcfilparam-roughing]: Images/Arc_filter_Tolerance-roughing.png 'Kaarisuodatus / Toleranssi'
@@ -131,7 +131,7 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 [control-2]: Images/Toolpath_control-2.png 'Työstöradan ohjaus'
 [cutparam-scallop-1]: Images/Cut_parameters-Sacallop-1.png 'Työstöparametrit'
 [transitions-2]: Images/Transitions-2.png 'Siirtymiset'
-[steepshallow-1]: Images/Steep_shallow-1.png 'Jyrkkä / laakea'
+[steepshallow-2]: Images/Steep_shallow-2.png 'Jyrkkä / laakea'
 [linkingparam-2]: Images/Linking_parameters-2.png 'Siirtymisparametrit'
 [arcfilparam-roughing-2]: Images/Arc_filter_Tolerance-roughing-2.png 'Kaarisuodatus / Toleranssi'
 [cutparam-contour-3]: Images/Cut_parammeters-Contour_3.png 'Työstöparametrit'
@@ -154,6 +154,10 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 - [arcfilparam] | Kaarisuodatus / Toleranssit (Arc filter / Tolerance)
 
 ## TODO
-- [ ] Kohdistus, kaarisuodatus / toleranssi (kuva puuttuu)
+- [x] Kohdistus, kaarisuodatus / toleranssi (kuva puuttuu)
 - [x] Tasaus, Syvyyslastut (kuva puuttuu)
-- [ ] Aluerouhinta, Jyrkkä / laakea (kuva puuttuu)
+- [x] Aluerouhinta, Jyrkkä / laakea (kuva puuttuu)
+- [ ] Aluerouhinta, Jyrkkä / laakea (korkeudet)
+- [ ] Rouhinnat:
+	- [ ] Mallin geometria + Työstöradan ohjaus (valittuja piirteitä)
+	- [ ] Siirtymisparametrit + Kaarisuodatus / Toleranssi (yhtenevät arvot)
