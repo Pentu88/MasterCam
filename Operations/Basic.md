@@ -135,7 +135,7 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 [linkingparam-2]: Images/Linking_parameters-2.png 'Siirtymisparametrit'
 [arcfilparam-roughing-2]: Images/Arc_filter_Tolerance-roughing-2.png 'Kaarisuodatus / Toleranssi'
 [cutparam-contour-3]: Images/Cut_parammeters-Contour_3.png 'Työstöparametrit'
-[linkingparam-roughing]: Images/Linking_parameters-roughing.png 'Siirtymisparametrit'
+[linkingparam-roughing]: Images/Linking_parameters-Roughing.png 'Siirtymisparametrit'
 [arcfilparam-roughing-3]: Images/Arc_filter_Tolerance-roughing-3.png 'Kaarisuodatus / Toleranssi'
 
 ## Välilehdet 
