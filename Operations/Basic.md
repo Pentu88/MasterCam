@@ -30,7 +30,7 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 
 ![Kuva: Työkalu T08][tool_t8-1]
 
-![Kuva: Cut parammeters][cutparam-contour-1]
+![Kuva: Cut parammeters][cutparam-contour-2]
 
 ![Kuva: Linking parammeters][linkingparam-woodenpin]
 
@@ -44,7 +44,7 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 
 ![Kuva: Cut parammeters][cutparam-face]
 
-![Kuva: Depht cuts][depthcuts]
+![Kuva: Depht cuts][depthcuts-1]
 
 ![Kuva: Linking parammeters][linkingparam-face]
 
@@ -93,6 +93,16 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 
 ## **6.** 2D Profiili (*Rouhinta*)
 
+![Kuva: 2D profiili][type_contour]
+
+![Kuva: Työkalu T03][tool_t3]
+
+![Kuva: Cut parammeters][cutparam-contour-3]
+
+![Kuva: Linking parammeters][linkingparam-roughing]
+
+![Kuva: Arc filter - Tolerance][arcfilparam-roughing-3]
+
 [type_contour]: Images/Toolpath_type-2D_Contour.png 'Työstöradan tyyppi'
 [tool_t7]: Images/Tool-T07-Target.png 'Työkalu'
 [cutparam-contour-1]: Images/Cut_parammeters-Contour_1.png 'Työstöparametrit'
@@ -105,7 +115,7 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 [type_face]: Images/Toolpath_type-2D_Face.png 'Työstöradan tyyppi'
 [tool_t1]: Images/Tool-T01-80L.png 'Työkalu'
 [cutparam-face]: Images/Cut_parammeters-Face.png 'Työstöparametrit'
-[depthcuts]: Images/Depht_cuts-Face.png 'Syvyyslastut'
+[depthcuts-1]: Images/Depht_cuts-Face.png 'Syvyyslastut'
 [linkingparam-face]: Images/Linking_parameters-face.png 'Siirtymisparametrit'
 [arcfilparam-face]: Images/Arc_filter_Tolerance-face.png 'Kaarisuodatus / Toleranssi'
 [type-arearoughing]: Images/Toolpath_type-Area_roughing.png 'Työstöradan tyyppi'
@@ -124,6 +134,9 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 [steepshallow-1]: Images/Steep_shallow-1.png 'Jyrkkä / laakea'
 [linkingparam-2]: Images/Linking_parameters-2.png 'Siirtymisparametrit'
 [arcfilparam-roughing-2]: Images/Arc_filter_Tolerance-roughing-2.png 'Kaarisuodatus / Toleranssi'
+[cutparam-contour-3]: Images/Cut_parammeters-Contour_3.png 'Työstöparametrit'
+[linkingparam-roughing]: Images/Linking_parameters-roughing.png 'Siirtymisparametrit'
+[arcfilparam-roughing-3]: Images/Arc_filter_Tolerance-roughing-3.png 'Kaarisuodatus / Toleranssi'
 
 ## Välilehdet 
 
