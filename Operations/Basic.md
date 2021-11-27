@@ -4,7 +4,10 @@ Vaneri / mänty / Sika Block 700
 ## Luettelo
 - [1. 2D Profiili (Kohdistus)](#1-2d-profiili-kohdistus)
 - [2. 2D Profiili (Tupit)](#2-2d-profiili-tupit)
-- [3. Tasaus](#3-2d-tasaus)
+- [3. 2D Tasaus](#3-2d-tasaus)
+- [4. Suurnopeus Aluerouhinta](#4-aluerouhinta-rouhinta)
+- [5. Suurnopeus Vakiokarheus (Rouhinta)](#5-vakiokarheus-rouhinta)
+- [6. 2D Profiili (Rouhinta)](#6-2d-profiili-rouhinta)
 
 ## **1.** 2D Profiili (*Kohdistus*)
 Kohdistus naarmujen ajo pöytään.
@@ -117,7 +120,7 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 [type-scallop]: Images/Toolpath_type-Scallop.png 'Työstöradan tyyppi'
 [control-2]: Images/Toolpath_control-2.png 'Työstöradan ohjaus'
 [cutparam-scallop-1]: Images/Cut_parameters-Sacallop-1.png 'Työstöparametrit'
-[transitions-2]: Images/transitions-2.png 'Siirtymiset'
+[transitions-2]: Images/Transitions-2.png 'Siirtymiset'
 [steepshallow-1]: Images/Steep_shallow-1.png 'Jyrkkä / laakea'
 [linkingparam-2]: Images/Linking_parameters-2.png 'Siirtymisparametrit'
 [arcfilparam-roughing-2]: Images/Arc_filter_Tolerance-roughing-2.png 'Kaarisuodatus / Toleranssi'
