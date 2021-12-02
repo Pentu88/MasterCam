@@ -103,6 +103,67 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 
 ![Kuva: Arc filter - Tolerance][arcfilparam-roughing-3]
 
+## **7.** Vakio-Z (*Viimeistely*)
+
+![Kuva: Toolpath type][type-waterline]
+
+![Kuva: model geometry][geometry-roughing]
+
+![Kuva: toolpath control][control-2]
+
+![Kuva: Työkalu T04][tool_t4]
+
+![Kuva: Cut parammeters][cutparam-waterline]
+
+![Kuva: Transitions][transitions-3]
+
+![Kuva: Steep / Shallow][steepshallow-3]
+
+![Kuva: Linking parammeters][linkingparam-3]
+
+![Kuva: Arc filter - Tolerance][arcfilparam-surface-1]
+
+## **8.** Laakea (*Viimeistely*)
+
+![Kuva: Tool T04][tool_t4-shallow]
+
+![Kuva: Surface parammeters][surfaceparam]
+
+![Kuva: Finish shallow parammeters][fshallowparam]
+
+![Kuva: Arc filter - Tolerance][arcfilparam-surface-2]
+
+## **9.** Tasainen alue (*Viimeistely*)
+
+![Kuva: Toolpath type][type-horizontal]
+
+![Kuva: model geometry][geometry-roughing]
+
+![Kuva: toolpath control][control-1]
+
+![Kuva: Työkalu T04][tool_t4]
+
+![Kuva: Cut parammeters][cutparam-horizontal]
+
+![Kuva: Transitions][transitions-4]
+
+![Kuva: Steep / Shallow][steepshallow-4]
+
+![Kuva: Linking parammeters][linkingparam-4]
+
+![Kuva: Arc filter - Tolerance][arcfilparam-surface-3]
+
+## **10.** Spiraali (*Viimeistely*)
+
+![Kuva: Toolpath type][type-spiral]
+
+![Kuva: model geometry][geometry-roughing]
+
+![Kuva: toolpath control][control-2]
+
+![Kuva: Työkalu T04][tool_t4]
+
+
 [type_contour]: Images/Toolpath_type-2D_Contour.png 'Työstöradan tyyppi'
 [tool_t7]: Images/Tool-T07-Target.png 'Työkalu'
 [cutparam-contour-1]: Images/Cut_parammeters-Contour_1.png 'Työstöparametrit'
@@ -137,6 +198,24 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 [cutparam-contour-3]: Images/Cut_parammeters-Contour_3.png 'Työstöparametrit'
 [linkingparam-roughing]: Images/Linking_parameters-Roughing.png 'Siirtymisparametrit'
 [arcfilparam-roughing-3]: Images/Arc_filter_Tolerance-roughing-3.png 'Kaarisuodatus / Toleranssi'
+[type-waterline]: Images/Toolpath_type-waterline.png 'Työstöradan tyyppi'
+[tool_t4]: Images/Tool-T04-16P.png 'Työkalu'
+[cutparam-waterline]: Images/Cut_parameters-Waterline.png 'Työstöparametrit'
+[transitions-3]: Images/Transitions-3.png 'Siirtymiset'
+[steepshallow-3]: Images/Steep_shallow-3.png 'Jyrkkä / laakea'
+[arcfilparam-surface-1]: Images/Arc_filter_Tolerance-Surface-1.png 'Kaarisuodatus / Toleranssi'
+[tool_t4-shallow]: Images/Tool-T04-16P-Shallow.png 'Tool-<t04-16P'
+[surfaceparam]: Images/Surface_parameters-Shallow.png 'Surface parammeters'
+[fshallowparam]: Images/Finish_shallow_parameters.png 'Finish shallow parammeters'
+[arcfilparam-surface-2]: Images/Arc_filter_Tolerance-Surface-2.png 'Kaarisuodatus / Toleranssi'
+[type-horizontal]: Images/Toolpath_type-Horizontal_area.png 'Työstöradan tyyppi'
+[cutparam-horizontal]: Images/Cut_parameters-Horizontal_area.png 'Työstöparametrit'
+[transitions-4]: Images/Transitions-4.png 'Siirtymiset'
+[steepshallow-4]: Images/Steep_shallow-4.png 'Jyrkkä / laakea'
+[linkingparam-4]: Images/Linking_parameters-4.png 'Siirtymisparametrit'
+[arcfilparam-surface-3]: Images/Arc_filter_Tolerance-Surface-3.png 'Kaarisuodatus / Toleranssi'
+[type-spiral]: Images/Toolpath_type-Spiral.png 'Työstöradan tyyppi'
+
 
 ## Välilehdet 
 
@@ -161,3 +240,4 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 - [ ] Rouhinnat:
 	- [ ] Mallin geometria + Työstöradan ohjaus (valittuja piirteitä)
 	- [ ] Siirtymisparametrit + Kaarisuodatus / Toleranssi (yhtenevät arvot)
+- [ ] Tasainen alue siirtymisparametrit
