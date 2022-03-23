@@ -8,6 +8,14 @@ Vaneri / mänty / Sika Block 700
 - [4. Suurnopeus Aluerouhinta](#4-aluerouhinta-rouhinta)
 - [5. Suurnopeus Vakiokarheus (Rouhinta)](#5-vakiokarheus-rouhinta)
 - [6. 2D Profiili (Rouhinta)](#6-2d-profiili-rouhinta)
+- [7. Vakio-Z (Viimeistely)](#7-vakio-z-viimeistely)
+- [8. Laakea (Viimeistely)](#8-laakea-viimeistely)
+- [9. Tasainen alue (Viimeistely)](#9-tasainen-alue-viimeistely)
+- [10. Spiraali (Viimeistely)](#10-spiraali-viimeistely)
+- [11. Yhdensuuntainen (Viimeistely)](#11-yhdensuuntainen-viimeistely)
+- [12. 2D Profiili (Viimeistely)](#12-2d-profiili-viimeistely)
+- [13. Vakio-Z (Jälkityöstö)](#13-vakio-z-jälkityöstö)
+- [14. Vakiokarheus (Jälkityöstö)](#14-vakiokarheus-jälkityöstö)
 
 ## **1.** 2D Profiili (*Kohdistus*)
 Kohdistus naarmujen ajo pöytään.
@@ -163,6 +171,92 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 
 ![Kuva: Työkalu T04][tool_t4]
 
+![Kuva: Cut parammeters][cutparam-spiral]
+
+![Kuva: Transitions][transitions-5]
+
+![Kuva: Steep / Shallow][steepshallow-5]
+
+![Kuva: Linking parammeters][linkingparam-4]
+
+![Kuva: Arc filter - Tolerance][arcfilparam-surface-4]
+
+## **11.** Yhdensuuntainen (*Viimeistely*)
+
+![Kuva: Toolpath type][type-Parallel]
+
+![Kuva: model geometry][geometry-surface]
+
+![Kuva: toolpath control][control-3]
+
+![Kuva: Työkalu T04][tool_t4]
+
+![Kuva: Cut parammeters][cutparam-Parallel]
+
+![Kuva: Transitions][transitions-6]
+
+![Kuva: Steep / Shallow][steepshallow-5]
+
+![Kuva: Linking parammeters][linkingparam-5]
+
+![Kuva: Arc filter - Tolerance][arcfilparam-surface-3]
+
+## **12.** 2D Profiili (*Viimeistely*)
+
+![Kuva: 2D profiili][type_contour]
+
+![Kuva: Työkalu T06][tool_t6]
+
+![Kuva: Cut parammeters][cutparam-2d-surface]
+
+![Kuva: Linking parammeters][linkingparam-surface]
+
+![Kuva: Arc filter - Tolerance][arcfilparam-Surface-4]
+
+## **13.** Vakio-Z (*Jälkityöstö*)
+
+![Kuva: Toolpath type][type-waterline]
+
+![Kuva: Model geometry][geometry-leftover]
+
+![Kuva: Toolpath control][control-2]
+
+![Kuva: Työkalu T02][tool_t2]
+
+![Kuva: Stock][stock]
+
+![Kuva: Cut parammeters][cutparam-waterline]
+
+![Kuva: Transitions][transitions-3]
+
+![Kuva: Steep / Shallow][steepshallow-3]
+
+![Kuva: Linking parammeters][linkingparam-5]
+
+![Kuva: Arc filter - Tolerance][arcfilparam-surface-3]
+
+## **14.** Vakiokarheus (*Jälkityöstö*)
+
+![Kuva: Toolpath type][type-scallop]
+
+![Kuva: Model geometry][geometry-leftover]
+
+![Kuva: toolpath control][control-2]
+
+![Kuva: Työkalu T02][tool_t2]
+
+![Kuva: Stock][stock]
+
+![Kuva: Cut parammeters][cutparam-scallop-2]
+
+![Kuva: Transitions][transitions-2]
+
+![Kuva: Steep / Shallow][steepshallow-3]
+
+![Kuva: Linking parammeters][linkingparam-5]
+
+![Kuva: Arc filter - Tolerance][arcfilparam-surface-2]
+
 
 [type_contour]: Images/Toolpath_type-2D_Contour.png 'Työstöradan tyyppi'
 [tool_t7]: Images/Tool-T07-Target.png 'Työkalu'
@@ -215,6 +309,25 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 [linkingparam-4]: Images/Linking_parameters-4.png 'Siirtymisparametrit'
 [arcfilparam-surface-3]: Images/Arc_filter_Tolerance-Surface-3.png 'Kaarisuodatus / Toleranssi'
 [type-spiral]: Images/Toolpath_type-Spiral.png 'Työstöradan tyyppi'
+[cutparam-spiral]: Images/Cut_parameters-Spiral.png 'Työstöparametrit'
+[transitions-5]: Images/Transitions-5.png 'Siirtymiset'
+[steepshallow-5]: Images/Steep_shallow-5.png 'Jyrkkä / laakea'
+[linkingparam-4]: Images/Linking_parameters-4.png 'Siirtymisparametrit'
+[arcfilparam-surface-4]: Images/Arc_filter_Tolerance-Surface-4.png 'Kaarisuodatus / Toleranssi'
+[cutparam-parallel]: Images/Cut_parameters-Parallel.png 'Työstöparametrit'
+[geometry-surface]: Images/Model_geometry-Surface.png 'Mallin geometria'
+[control-3]: Images/Toolpath_control-3.png 'Työstöradan ohjaus'
+[transitions-6]: Images/Transitions-6.png 'Siirtymiset'
+[linkingparam-5]: Images/Linking_parameters-5.png 'Siirtymisparametrit'
+[steepshallow-6]: Images/Steep_shallow-6.png 'Jyrkkä / laakea'
+[tool_t6]: Images/Tool-T06-20T.png 'Työkalu'
+[linkingparam-surface]: Images/Linking_parameters-Surface.png 'Siirtymisparametrit'
+[cutparam-2d-surface]: Images/Cut_parammeters-2D-Surface.png 'Työstöparametrit'
+[tool_t2]: Images/Tool-T02-10P.png 'Työkalu'
+[geometry-leftover]: Images/Model_geometry-Leftover.png 'Mallin geometria'
+[stock]: Images/Stock.png 'Aihio'
+[cutparam-scallop-2]: Images/Cut_parameters-Sacallop-2.png 'Työstöparametrit'
+
 
 
 ## Välilehdet 
@@ -237,7 +350,17 @@ Puutuipien ajo pöytään ja kappaleen pohjaan. Messinki tupien ajo jakotasolle.
 - [x] Tasaus, Syvyyslastut (kuva puuttuu)
 - [x] Aluerouhinta, Jyrkkä / laakea (kuva puuttuu)
 - [ ] Aluerouhinta, Jyrkkä / laakea (korkeudet)
+- [ ] Yhdensuuntainen, Työstöradan tyyppi (Toolpath-type) (kuva puuttuu)
 - [ ] Rouhinnat:
 	- [ ] Mallin geometria + Työstöradan ohjaus (valittuja piirteitä)
 	- [ ] Siirtymisparametrit + Kaarisuodatus / Toleranssi (yhtenevät arvot)
 - [ ] Tasainen alue siirtymisparametrit
+- [ ] Spiraali toleranssit (xyz)
+- [ ] geome-surface (Mallin geometria) viimeistelyt täytyy muuttaa työvarattomaksi
+- [ ] Transitions (Siirtymiset) 5 & 6 (pitäisikö olla sama
+- [ ] 11. yhdensuuntainen(viimeistely) & 2D Profiili (viimeistely) - tarkasta "arcfilparam-surface-3" (Tulosta 3D-lähestymiskaaret)
+- [ ] Työkalut 
+- [ ] "Cut_parammeters-Contour_1" 1-3?
+- [ ] 14. Vakiokarheus (jälkityöstö) - tarkasta "arcfilparam-surface-2"-kuva, lainattu laakeasta, kuva koko
+
+ 
